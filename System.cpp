@@ -1759,7 +1759,7 @@ void System::show_participants()
 		for (int i = 0; i < participants.size(); i++)
 		{
 			system("cls");
-			cout << i + 1 << ". " << participants.size() << endl;
+			cout << i + 1 << ". " << endl;
 			participants[i]->show_participant();
 			_getch();
 		}
@@ -1786,7 +1786,7 @@ void System::show_results()
 		for (int i = 0; i < results.size(); i++)
 		{
 			system("cls");
-			cout << i + 1 << ". " << results.size() << endl;
+			cout << i + 1 << ". " << endl;
 			results[i]->show_result();
 			_getch();
 		}
@@ -1813,7 +1813,7 @@ void System::show_contests()
 		for (int i = 0; i < contests.size(); i++)
 		{
 			system("cls");
-			cout << i + 1 << ". " << contests.size() << endl;
+			cout << i + 1 << ". " << endl;
 			contests[i]->show_contest();
 			_getch();
 		}
@@ -1840,7 +1840,7 @@ void System::show_categories()
 		for (int i = 0; i < categories.size(); i++)
 		{
 			system("cls");
-			cout << i + 1 << ". " << categories.size() << endl;
+			cout << i + 1 << ". " << endl;
 			categories[i]->show_category();
 			_getch();
 		}
@@ -1867,7 +1867,7 @@ void System::show_clubs()
 		for (int i = 0; i < clubs.size(); i++)
 		{
 			system("cls");
-			cout << i + 1 << ". " << clubs.size() << endl;
+			cout << i + 1 << ". " << endl;
 			clubs[i]->show_club();
 			_getch();
 		}
